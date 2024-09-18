@@ -104,3 +104,62 @@ function setupCanvas() {
 setupCanvas();
 window.addEventListener('resize', setupCanvas);
 update();
+
+
+// nav
+document.addEventListener('DOMContentLoaded', () => {
+    let navLinks = document.querySelectorAll('nav #nav-link');
+    navLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+            console.log('hi')
+            // Remove 'active' class from all links
+            navLinks.forEach(link => link.classList.remove('active'));
+            // Add 'active' class to the clicked link
+            event.currentTarget.classList.add('active');
+        });
+    });
+});
+
+
+// on-click activities
+let resume = document.querySelector('.eye-icon');
+resume.addEventListener('click', () => {
+    window.open('public/Jahanvi_Yadav_Resume.docx', "_blank")
+    
+});
+
+let day_mode = document.querySelector('#day-mode');
+let night_mode = document.querySelector('#night-mode');
+let body = document.querySelector('body');
+
+// Function to toggle the background based on the active class
+function toggleMode() {
+    if (day_mode.classList.contains('active')) {
+      document.body.style.backgroundColor = 'rgba(241, 241, 241, 0.858)';
+    } else if (night_mode.classList.contains('active')) {
+      body.style.backgroundColor = 'rgba(0, 0, 0, 0.601)';
+
+    }
+}
+
+    // Event listener for day mode button
+  day_mode.addEventListener('click', () => {
+    day_mode.classList.add('active');
+    night_mode.classList.remove('active');
+    toggleMode();
+  });
+
+  // Event listener for night mode button
+  night_mode.addEventListener('click', () => {
+    night_mode.classList.add('active');
+    day_mode.classList.remove('active');
+    toggleMode();
+  });
+
+
+  // Set day mode active by default on page load
+day_mode.classList.add('active');
+night_mode.classList.remove('active');
+toggleMode(); // Initialize the page with the correct background
+
+

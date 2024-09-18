@@ -4,6 +4,7 @@
     font-family: 'Source Serif 4';
     src: url(public/vEFF2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6kDXr4.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ body {
     font-family: Poppins;
     overflow-x: hidden;
     /* cursor: none; */
+    scroll-behavior: smooth;
 
 }
 
@@ -89,7 +91,7 @@ main {
 
 
 .page1 {
-    height: 200vh;
+    height: 400vh;
     width: 100%;
     position: relative;
     z-index: 9;
@@ -100,13 +102,13 @@ main {
 
 nav{
     height: 6.5vh;
-    width:28vw;
+    width:22vw;
     position: relative;
     background-color: rgba(207, 205, 205, 0.332);
     /* background-color: rgba(128, 205, 236, 0.909); */
     border-radius: 50px;
-    top: 4%;
-    left: 37.5%;
+    top: 3%;
+    left: 40%;
     display: flex;
     justify-content: space-between;
     padding: 0.35% 0.5% 0 0.5%;
@@ -134,13 +136,15 @@ nav a:hover{
     transition: all linear 0.8s;
 }
 
-
+nav a.active{
+    background-color: rgba(255, 255, 255, 0.797);
+}
 .container-one{
     position: relative;
     height: 40vh;
     width: 80vw;
     /* background: black; */
-    top: 9%;
+    top: 6.5%;
     left: 10%;
     
 }
@@ -241,7 +245,7 @@ nav a:hover{
 
 .container-outer-box .box2{
     height: 100%;
-    width: 55%;
+    width: 52%;
     /* background-color: rgb(76, 167, 167); */
     border-radius: 32px;
 
@@ -297,7 +301,7 @@ nav a:hover{
 
 .box2 .box2-part2{
     margin-top: 3%;
-    height: 68%;
+    height: 73%;
     width: 100%;
     /* background-color: rgb(12, 12, 12); */
     display: flex;
@@ -336,7 +340,7 @@ nav a:hover{
     border-radius: 25px;
     background-color: rgba(207, 205, 205, 0.332);
     /* background-color: olive; */
-    padding: 4.5% 3% 0 6%; 
+    padding: 5.8% 6% 0 6%; 
     color: rgb(131, 129, 129);
     font-size: 1vw;
     display: flex;
@@ -347,21 +351,21 @@ nav a:hover{
 
 .child2-child1 span{
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     font-weight: 500;
     color: black;
 
 }
 
 .child2-child1 .eye-icon{
-    height: 60%;
-    width: 20%;
-    /* background-color: yellow; */
+    height: 80%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1.6%;
+    /* margin-top: 1%; */
     font-size: 2.2vw;
+    border-radius: 12px;
 
 }
 
@@ -371,17 +375,54 @@ nav a:hover{
     border-radius: 25px;
     background-color: rgba(207, 205, 205, 0.332);
     margin-top: 5%;
+    display: flex;
+    font-family: Poppins;
+    justify-content: space-between;
+    padding: 2% 6% 0 6%; 
+    color: rgb(131, 129, 129);
+
+
 
 }
 
+.box2-part2-child2 .active{
+    background-color: rgba(255, 255, 255, 0.797);
 
+
+}
+
+.child2-child2 span{
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: black;
+
+}
+
+.child2-child2 .eye-icon{
+    height: 90%;
+    width: 48%;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 1.6%; */
+    font-size: 2.4vw;
+
+
+}
+
+/* .box2 .eye-icon:hover{
+    background-color: rgba(241, 241, 241, 0.917);
+
+} */
 
 .container-two{
     position: relative;
     height: 72vh;
     width: 80vw;
     /* background: black; */
-    top: 9%;
+    top: 6.5%;
     left: 8%;
     margin: 2%;
 }
@@ -663,7 +704,7 @@ nav a:hover{
     height: 68vh;
     width: 80vw;
     /* background: black; */
-    top: 9%;
+    top: 6.5%;
     left: 8%;
     margin: 2%;
 }
@@ -878,7 +919,7 @@ nav a:hover{
     height: 68vh;
     width: 80vw;
     /* background: rgb(195, 149, 149); */
-    top: 9%;
+    top: 6.5%;
     left: 8%;
     margin: 2%;
 }
@@ -1091,7 +1132,7 @@ nav a:hover{
     height: 68vh;
     width: 80vw;
     /* background: black; */
-    top: 9%;
+    top: 6.5%;
     left: 8%;
     margin: 2%;
 }
