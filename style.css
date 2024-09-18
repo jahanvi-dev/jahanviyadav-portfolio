@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Kostania;
+    src: url(public/Kostania-Bold.ttf);
+    font-family: 'Source Serif 4';
+    src: url(public/vEFF2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6kDXr4.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -178,7 +184,7 @@ nav a:hover{
     width: 21%;
     /* background-color: aquamarine; */
     border-radius: 50%;
-    background-image: url(/public/profile.jpg);
+    background-image: url(public/profile.jpg);
     background-size: cover;
     background-position: center;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.612); /* Inner shadow */
@@ -310,7 +316,7 @@ nav a:hover{
 
 
 .box2-part2 .box2-part2-child1{
-    background-image: url(/public/map.PNG);
+    background-image: url(public/map.PNG);
     background-size: cover;
     background-position: center;
 }
@@ -329,6 +335,33 @@ nav a:hover{
     width: 100%;
     border-radius: 25px;
     background-color: rgba(207, 205, 205, 0.332);
+    /* background-color: olive; */
+    padding: 4.5% 3% 0 6%; 
+    color: rgb(131, 129, 129);
+    font-size: 1vw;
+    display: flex;
+    font-family: Poppins;
+    justify-content: space-between;
+
+}
+
+.child2-child1 span{
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: black;
+
+}
+
+.child2-child1 .eye-icon{
+    height: 60%;
+    width: 20%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6%;
+    font-size: 2.2vw;
 
 }
 
@@ -491,11 +524,18 @@ nav a:hover{
     font-size: 1.1vw;
 }
 
+.tech-heading h5 i {
+    margin-top: -3%;
+    margin-left: 1%;
+    font-size: 1.7vw;
+}
+
 
 .tech-heading p{
     font-size: 1vw;
     color: rgb(47, 46, 46);
     font-weight: 400;
+    margin-top: 1.5%;
 
 }
 
@@ -651,46 +691,84 @@ nav a:hover{
     height: 75%;
     width: 100%;
     /* background-color: aqua; */
-    display: flex;
     position: relative;
 }
 
 
 
 .box5-images .m-1{
-    height: 90%;
-    width: 90%;
+    height: 12%;
+    width: 45%;
     /* background-color: black; */
     position: relative;
-    top: 7%;
-    left: 5%;
+    top: 6%;
+    left: 1.5vw;
+    background-image: url(public/ff1.jpg); 
+    background-size: cover;
+    border-radius: 10px;
+    filter: grayscale(25%);
+    background-position: center;
+}
+
+.box5-images .m-2{
+    height: 73%;
+    width: 93%;
+    background-color: rgba(1, 1, 1, 0.724);
+    position: relative;
+    top: 11%;
+    left: 1.5vw;
     background-image: url(public/mira1.png); 
     background-size: cover;
-    background-position: center;
     border-radius: 10px;
+    /* background-position: center; */
+
+
 }
+
+
+
 
 .box5 .project-details-box{
     height: 25%;
     width: 100%;
     /* background-color: purple; */
     position: relative;
-    padding: 1% 0 0 5%;
+    padding: 1% 0 0 4%;
 }
 
 .project-details-box p{
     height: 3vh;
+    font-size: 1vw;
     /* background-color: aqua; */
 }
 
+.project-details-box a{
+    color: black;
+    text-decoration: none;
+}
 
 .project-details-box h2{
     text-transform: uppercase;
     font-weight: 500;
-    margin-top: 1%;
+    font-size: 1.5vw;
+    position: relative;
     /* background-color: orange; */
 }
 
+.project-details-box h2 i{
+    font-size: 1.2vw;
+    margin-left: 1.9%;
+    border-radius: 50%;
+    /* background-color: yellow; */
+    position: absolute;
+    margin-top: 1.1%;
+}
+
+.project-details-box a:hover{
+    color: rgb(239, 67, 67);
+    text-decoration: underline;
+    
+}
 
 .project-details-box .tech-used{
     margin-top: 1%;
@@ -734,31 +812,21 @@ nav a:hover{
 
 
 .box6-images .m-1{
-    height: 80%;
-    width: 50%;
-    /* background-color: black; */
+    height: 90%;
+    width: 92%;
+    background-color: black;
     position: relative;
-    top: 7%;
-    left: 5%;
-    background-image: url(public/mind2.png); 
+    top: 6%;
+    left: 4%;
+    background-image: url(public/mind1.png); 
     background-size: cover;
     /* background-position: center; */
     border-radius: 10px;
+    filter: grayscale(15%);
 }
 
 
-.box6-images .m-2{
-    height: 57%;
-    width: 38%;
-    /* background-color: black; */
-    position: relative;
-    top: 30%;
-    left: 9%;
-    background-image: url(public/mind4.png); 
-    background-size: cover;
-    background-position: right;
-    border-radius: 10px;
-}
+
 
 
 
@@ -805,7 +873,6 @@ nav a:hover{
 
 
 
-
 .container-four{
     position: relative;
     height: 68vh;
@@ -834,12 +901,188 @@ nav a:hover{
     border-radius: 32px;
 }
 
+
+.box7 .box7-images{
+    height: 75%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+
+
+.box7-images .m-1{
+    height: 75%;
+    width: 92%;
+    background-color: black;
+    position: relative;
+    top: 6%;
+    left: 4%;
+    background-image: url(public/dev1.png); 
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 10px;
+    filter: grayscale(35%);
+}
+
+
+.box7-images .m-2{
+    height: 8%;
+    width: 24%;
+    background-color: white;
+    position: relative;
+    top: 10%;
+    left: 4%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    font-family: Poppins;
+}
+
+.box7-images .m-3{
+    height: 8%;
+    width: 24%;
+    background-color: #093c18db;
+    position: relative;
+    top: 2%;
+    left: 32%;
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: 0.9vw;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: white;
+}
+
+
+
+
+.box7 .project-details-box{
+    height: 25%;
+    width: 100%;
+    /* background-color: purple; */
+    position: relative;
+    padding: 1% 0 0 5%;
+}
+
+.project-details-box p{
+    height: 3vh;
+    /* background-color: aqua; */
+}
+
+ 
+
+.project-details-box h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 1%;
+    /* background-color: orange; */
+}
+
+
+.project-details-box .tech-used{
+    margin-top: 1%;
+    height: 5vh;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    gap: 4%;
+}
+
+.tech-used p{
+    background-color: rgba(255, 255, 255, 0.863);
+    height: 4vh;
+    width: fit-content;
+    padding: 0.8% 3% 2.5% 3%;
+    font-size: 0.9vw;
+    border-radius: 20px;
+    
+}
 .container-four-outer-box .box8{
     height: 100%;
     width: 49%;
     border-radius: 32px;
     background-color: rgba(207, 205, 205, 0.397);
     margin-top: -1%;
+}
+
+.box8 .box8-images{
+    height: 75%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+}
+
+
+
+.box8-images .m-1{
+    height: 90%;
+    width: 92%;
+    background-color: black;
+    position: relative;
+    top: 6%;
+    left: 4%;
+    background-image: url(public/nestora1.png); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    filter: grayscale(15%);
+}
+
+
+
+.box8 .project-details-box{
+    height: 25%;
+    width: 100%;
+    /* background-color: purple; */
+    position: relative;
+    padding: 1% 0 0 5%;
+}
+
+.project-details-box p{
+    height: 3vh;
+    /* background-color: aqua; */
+}
+
+
+.project-details-box h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 1%;
+    /* background-color: orange; */
+}
+
+
+.project-details-box .tech-used{
+    margin-top: 1%;
+    height: 5vh;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    gap: 4%;
+}
+
+.tech-used p{
+    background-color: rgba(255, 255, 255, 0.863);
+    height: 4vh;
+    width: fit-content;
+    padding: 0.8% 3% 2.5% 3%;
+    font-size: 0.9vw;
+    border-radius: 20px;
+    
 }
 
 
@@ -870,6 +1113,95 @@ nav a:hover{
     background-color: rgba(207, 205, 205, 0.397);
     border-radius: 32px;
 }
+
+.box9 .box9-images{
+    height: 75%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+
+
+.box9-images .m-1{
+    height: 8%;
+    width: 35%;
+    background-color: rgb(255,218,121);
+    position: relative;
+    top: 6%;
+    left: 4%;
+    /* background-image: url(public/mind1.png);  */
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 10px;
+    filter: grayscale(15%);
+    font-family: 'Source serif 4';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: black;
+    font-weight: 500;
+}
+
+
+.box9-images .m-2{
+    height: 75%;
+    width: 92%;
+    background-color: black;
+    position: relative;
+    top: 10%;
+    left: 4%;
+    background-image: url(public/dribbble2.png); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    filter: grayscale(35%);
+}
+
+
+
+.box9 .project-details-box{
+    height: 25%;
+    width: 100%;
+    /* background-color: purple; */
+    position: relative;
+    padding: 1% 0 0 5%;
+}
+
+.project-details-box p{
+    height: 3vh;
+    /* background-color: aqua; */
+}
+
+
+.project-details-box h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 1%;
+    /* background-color: orange; */
+}
+
+
+.project-details-box .tech-used{
+    margin-top: 1%;
+    height: 5vh;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    gap: 4%;
+}
+
+.tech-used p{
+    background-color: rgba(255, 255, 255, 0.863);
+    height: 4vh;
+    width: fit-content;
+    padding: 0.8% 3% 2.5% 3%;
+    font-size: 0.9vw;
+    border-radius: 20px;
+    
+}
+
 
 .container-five-outer-box .box10{
     height: 100%;
