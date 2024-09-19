@@ -1334,7 +1334,7 @@ nav a.active {
 
 
 /* Mobile responsive design */
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 
     .page1 {
         height: 250vh;
@@ -1729,7 +1729,7 @@ nav a.active {
         border-radius: 15px;
         height: 50%;
         width: 100%;
-        margin-top: 2.5%;
+        margin-top: 2.6%;
         /* background-color: olive; */
 
 
