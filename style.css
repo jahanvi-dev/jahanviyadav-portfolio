@@ -1343,7 +1343,7 @@ nav a.active {
 
 
     nav {
-        height: 5vh;
+        height: 4vh;
         width: 28vw;
         position: relative;
         border-radius: 25px;
@@ -1355,11 +1355,11 @@ nav a.active {
 
 
     nav a {
-        height: 4vh;
+        height: 2.8vh;
         font-size: 1.4vw;
         width: 8.2vw;
         border-radius: 15px;
-        margin-top: 2px;
+        margin-top: 3px;
 
     }
 
@@ -1618,7 +1618,6 @@ nav a.active {
         height: 60vh;
         width: 80vw;
         /* background: black; */
-        top: 6.2%;
 
     }
 
@@ -1628,13 +1627,14 @@ nav a.active {
         width: 100%;
         /* background-color: brown; */
         display: inline-block;
+        margin-top: -1.5%;
     }
+
 
 
     .container-three-outer-box .box5 {
         height: 50%;
         width: 100%;
-        margin-top: -6%;
         border-radius: 15px;
         background-color: rgba(207, 205, 205, 0.397);
 
