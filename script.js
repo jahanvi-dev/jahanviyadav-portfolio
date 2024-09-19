@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // on-click activities
 let resume = document.querySelector('.eye-icon');
 resume.addEventListener('click', () => {
-    window.open('public/Jahanvi_Yadav_Resume.pdf', "_blank")
+    window.open('/public/Jahanvi_Yadav_Resume.pdf', "_blank")
     
 });
 
