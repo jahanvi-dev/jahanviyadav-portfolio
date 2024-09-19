@@ -1343,7 +1343,7 @@ nav a.active {
 
 
     nav {
-        height: 4vh;
+        height: 4vw;
         width: 28vw;
         position: relative;
         border-radius: 25px;
@@ -1355,7 +1355,7 @@ nav a.active {
 
 
     nav a {
-        height: 2.8vh;
+        height: 2.8vw;
         font-size: 1.4vw;
         width: 8.2vw;
         border-radius: 15px;
