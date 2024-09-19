@@ -100,9 +100,9 @@ main {
 }
 
 
-nav{
+nav {
     height: 6.5vh;
-    width:22vw;
+    width: 22vw;
     position: relative;
     background-color: rgba(207, 205, 205, 0.332);
     /* background-color: rgba(128, 205, 236, 0.909); */
@@ -116,7 +116,7 @@ nav{
 
 
 
-nav a{
+nav a {
     height: 5vh;
     width: 5.4vw;
     /* background-color: aqua; */
@@ -131,46 +131,47 @@ nav a{
 }
 
 
-nav a:hover{
+nav a:hover {
     background-color: rgba(255, 255, 255, 0.797);
     transition: all linear 0.8s;
 }
 
-nav a.active{
+nav a.active {
     background-color: rgba(255, 255, 255, 0.797);
 }
-.container-one{
+
+.container-one {
     position: relative;
     height: 40vh;
     width: 80vw;
     /* background: black; */
     top: 6.5%;
     left: 10%;
-    
+
 }
 
 
-.container-outer-box{
-   height: 100%;
-   width: 100%;
-   /* background-color: orchid; */
-   display: flex;
-   gap: 2%;
+.container-outer-box {
+    height: 100%;
+    width: 100%;
+    /* background-color: orchid; */
+    display: flex;
+    gap: 2%;
 }
 
 
-.container-outer-box .box1{
+.container-outer-box .box1 {
     height: 100%;
     width: 45%;
     background-color: rgba(207, 205, 205, 0.332);
     border-radius: 32px;
-    
+
 
 
 }
 
 
-.box1 .box1-part1{
+.box1 .box1-part1 {
     height: 45%;
     width: 100%;
     /* background-color: rgb(117, 117, 52); */
@@ -183,7 +184,7 @@ nav a.active{
 
 }
 
-.box1-part1 .profile{
+.box1-part1 .profile {
     height: 80%;
     width: 21%;
     /* background-color: aquamarine; */
@@ -191,22 +192,23 @@ nav a.active{
     background-image: url(public/profile.jpg);
     background-size: cover;
     background-position: center;
-    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.612); /* Inner shadow */
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.612);
+    /* Inner shadow */
 
-    
-    
+
+
 }
 
 
 
-.box1-part1 .name{
+.box1-part1 .name {
     height: 80%;
     width: 68%;
     /* background-color: rgb(96, 88, 209); */
 }
 
 
-.box1-part1 .name h2{
+.box1-part1 .name h2 {
     font-weight: 600;
     /* text-align: center; */
     font-size: 2.2vw;
@@ -215,7 +217,7 @@ nav a.active{
 }
 
 
-.box1-part1 .name p{
+.box1-part1 .name p {
     margin-top: -3%;
     padding-left: 1%;
     font-weight: 300;
@@ -224,17 +226,17 @@ nav a.active{
 
 
 
-.box1-part2{
+.box1-part2 {
     height: 46%;
     width: 90%;
     /* background-color: aquamarine; */
     margin: 1% 5%;
-   
+
 }
 
 
 
-.box1-part2 p{
+.box1-part2 p {
     font-size: 1vw;
     padding-top: 1.1%;
     line-height: 1.4vw;
@@ -243,7 +245,7 @@ nav a.active{
 
 
 
-.container-outer-box .box2{
+.container-outer-box .box2 {
     height: 100%;
     width: 52%;
     /* background-color: rgb(76, 167, 167); */
@@ -253,9 +255,9 @@ nav a.active{
 
 
 
-.box2 .box2-part1{
+.box2 .box2-part1 {
     height: 20%;
-    width:100%;
+    width: 100%;
     border-radius: 20px;
     background-color: rgba(207, 205, 205, 0.332);
     display: flex;
@@ -268,7 +270,7 @@ nav a.active{
 
 }
 
-.box2 .box2-part1 h4{
+.box2 .box2-part1 h4 {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 1vw;
@@ -280,7 +282,7 @@ nav a.active{
 
 }
 
-.box2 .box2-part1 h4 span{
+.box2 .box2-part1 h4 span {
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
@@ -290,16 +292,19 @@ nav a.active{
 
 
 @keyframes marquee {
-    from{
-        transform: translateX(0); /* Start off-screen to the right */
+    from {
+        transform: translateX(0);
+        /* Start off-screen to the right */
     }
-    to{
-        transform: translateX(-100%); /* End off-screen to the left */
+
+    to {
+        transform: translateX(-100%);
+        /* End off-screen to the left */
     }
 }
 
 
-.box2 .box2-part2{
+.box2 .box2-part2 {
     margin-top: 3%;
     height: 73%;
     width: 100%;
@@ -310,7 +315,7 @@ nav a.active{
 
 
 
-.box2-part2 .box2-part2-child1{
+.box2-part2 .box2-part2-child1 {
     height: 100%;
     width: 40%;
     border-radius: 32px;
@@ -319,7 +324,7 @@ nav a.active{
 }
 
 
-.box2-part2 .box2-part2-child1{
+.box2-part2 .box2-part2-child1 {
     background-image: url(public/map.PNG);
     background-size: cover;
     background-position: center;
@@ -327,20 +332,20 @@ nav a.active{
 
 
 
-.box2-part2 .box2-part2-child2{
+.box2-part2 .box2-part2-child2 {
     height: 100%;
     width: 60%;
     /* background-color: palevioletred; */
 
 }
 
-.box2-part2-child2 .child2-child1{
+.box2-part2-child2 .child2-child1 {
     height: 45%;
     width: 100%;
     border-radius: 25px;
     background-color: rgba(207, 205, 205, 0.332);
     /* background-color: olive; */
-    padding: 5.8% 6% 0 6%; 
+    padding: 5.8% 6% 0 6%;
     color: rgb(131, 129, 129);
     font-size: 1vw;
     display: flex;
@@ -349,7 +354,7 @@ nav a.active{
 
 }
 
-.child2-child1 span{
+.child2-child1 span {
     text-transform: uppercase;
     font-size: 1.4vw;
     font-weight: 500;
@@ -357,7 +362,7 @@ nav a.active{
 
 }
 
-.child2-child1 .eye-icon{
+.child2-child1 .eye-icon {
     height: 80%;
     width: 30%;
     display: flex;
@@ -369,7 +374,7 @@ nav a.active{
 
 }
 
-.box2-part2-child2 .child2-child2{
+.box2-part2-child2 .child2-child2 {
     height: 46%;
     width: 100%;
     border-radius: 25px;
@@ -378,20 +383,20 @@ nav a.active{
     display: flex;
     font-family: Poppins;
     justify-content: space-between;
-    padding: 2% 6% 0 6%; 
+    padding: 2% 6% 0 6%;
     color: rgb(131, 129, 129);
 
 
 
 }
 
-.box2-part2-child2 .active{
+.box2-part2-child2 .active {
     background-color: rgba(255, 255, 255, 0.797);
 
 
 }
 
-.child2-child2 span{
+.child2-child2 span {
     text-transform: uppercase;
     font-size: 1.4vw;
     font-weight: 500;
@@ -399,7 +404,7 @@ nav a.active{
 
 }
 
-.child2-child2 .eye-icon{
+.child2-child2 .eye-icon {
     height: 90%;
     width: 48%;
     border-radius: 22px;
@@ -417,7 +422,7 @@ nav a.active{
 
 } */
 
-.container-two{
+.container-two {
     position: relative;
     height: 72vh;
     width: 80vw;
@@ -427,17 +432,16 @@ nav a.active{
     margin: 2%;
 }
 
-.container-two-outer-box{
+.container-two-outer-box {
     height: 100%;
-    width:100%;
+    width: 100%;
     /* background-color: aqua; */
-    display:flex;
-    gap:2%
-
+    display: flex;
+    gap: 2%
 }
 
-.container-two-outer-box .box3{
-    height:87%;
+.container-two-outer-box .box3 {
+    height: 87%;
     width: 51%;
     /* background-color: blueviolet; */
     /* border-radius: 32px; */
@@ -446,13 +450,13 @@ nav a.active{
 }
 
 
-.box3 .box3-part1{
+.box3 .box3-part1 {
     height: 87%;
-    width:38%;
+    width: 38%;
     /* background-color: peru; */
 }
 
-.box3-part1 .box3-part1-child1{
+.box3-part1 .box3-part1-child1 {
     height: 19vh;
     width: 100%;
     background-color: rgba(207, 205, 205, 0.397);
@@ -462,7 +466,7 @@ nav a.active{
 
 }
 
-.box3-part1 .box3-part1-child1 a{
+.box3-part1 .box3-part1-child1 a {
     height: 100%;
     width: 100%;
     font-weight: 600;
@@ -477,19 +481,19 @@ nav a.active{
 
 }
 
-.box3-part1 .box3-part1-child1 a i{
+.box3-part1 .box3-part1-child1 a i {
     font-size: 4vw;
-    
+
 }
 
 
-.box3 .box3-part2{
-    height:100%;
-    width:60%;
+.box3 .box3-part2 {
+    height: 100%;
+    width: 60%;
     /* background-color: rgb(91, 205, 63); */
 }
 
-.box3-part2-child1{
+.box3-part2-child1 {
     height: 66%;
     width: 100%;
     background-color: rgba(207, 205, 205, 0.397);
@@ -500,7 +504,7 @@ nav a.active{
 
 
 
-.box3-part2-child1 .marquee-image{
+.box3-part2-child1 .marquee-image {
     height: 55%;
     width: 100%;
     /* background-color: palegreen; */
@@ -510,27 +514,27 @@ nav a.active{
     align-items: center;
     position: absolute;
     animation: marquee-image 10s linear infinite;
-    
+
 
 }
 
 
 
-.marquee-image-link{
+.marquee-image-link {
     display: flex;
     gap: 2%;
     white-space: nowrap;
 
 
-    
+
 }
 
-.marquee-image-link img{
+.marquee-image-link img {
     height: 10vh;
     width: 20%;
     /* background-color: rgb(111, 179, 179); */
     animation: marquee-image 30s linear infinite;
-    object-fit:cover;
+    object-fit: cover;
     margin-right: 20px;
     border-radius: 15px;
 
@@ -541,17 +545,18 @@ nav a.active{
 
 
 @keyframes marquee-image {
-    from{
-        transform: translateX(0%); 
+    from {
+        transform: translateX(0%);
     }
-    to{
-        transform: translateX(-100%); 
+
+    to {
+        transform: translateX(-100%);
     }
 }
 
 
 
-.box3-part2-child1 .tech-heading{
+.box3-part2-child1 .tech-heading {
     height: 17vh;
     width: 100%;
     position: relative;
@@ -560,7 +565,7 @@ nav a.active{
     padding: 5% 0 0 5%;
 }
 
-.tech-heading h5{
+.tech-heading h5 {
     font-weight: 600;
     font-size: 1.1vw;
 }
@@ -572,7 +577,7 @@ nav a.active{
 }
 
 
-.tech-heading p{
+.tech-heading p {
     font-size: 1vw;
     color: rgb(47, 46, 46);
     font-weight: 400;
@@ -582,7 +587,7 @@ nav a.active{
 
 
 
-.box3-part2-child2{
+.box3-part2-child2 {
     height: 30%;
     width: 100%;
     background-color: rgba(207, 205, 205, 0.397);
@@ -592,7 +597,7 @@ nav a.active{
 }
 
 
-.box3-part2 .box3-part2-child2 a{
+.box3-part2 .box3-part2-child2 a {
     height: 100%;
     width: 100%;
     font-weight: 600;
@@ -607,40 +612,41 @@ nav a.active{
 
 }
 
-.box3-part2 .box3-part2-child2 a i{
+.box3-part2 .box3-part2-child2 a i {
     font-size: 4vw;
-    
+
 }
 
 
-.container-two-outer-box .box4{
-    height:100%;
+.container-two-outer-box .box4 {
+    height: 100%;
     width: 46%;
     background-color: rgba(207, 205, 205, 0.397);
     border-radius: 32px;
-    
+
 }
 
-.box4 .box4-heading{
+.box4 .box4-heading {
     height: 15%;
     width: 100%;
     /* background-color: yellow; */
-    padding: 4dvb 0 0 5%;
-    
+    padding: 4% 0 0 5%;
+
 }
 
-.box4-heading p{
+.box4-heading p {
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.87);
     font-size: 0.9vw;
 }
 
-.box4-heading h6{
+.box4-heading h6 {
     font-size: 1.6vw;
     font-weight: 600;
+    /* background-color: orange; */
 }
 
-.box4 .box4-part2{
+.box4 .box4-part2 {
     height: 83%;
     width: 100%;
     margin-top: 1%;
@@ -649,14 +655,15 @@ nav a.active{
 }
 
 
-.box4-part2 .box4-part2-child1{
+.box4-part2 .box4-part2-child1 {
     height: 100%;
     width: 50%;
     padding-top: 7%;
     /* background-color: blue; */
 
 }
-.box4-part2-child1 p{
+
+.box4-part2-child1 p {
     height: 11vh;
     width: 100%;
     /* border: 1px solid white; */
@@ -665,30 +672,31 @@ nav a.active{
     /* text-align: center; */
     color: grey;
     padding-left: 11%;
+    /* background-color: orange; */
 
 }
 
-.box4-part2-child1 p:nth-child(1){
+.box4-part2-child1 p:nth-child(1) {
     color: black;
     text-decoration-line: none;
     font-weight: 500;
 }
 
-.box4-part2-child1 p:nth-child(2){
+.box4-part2-child1 p:nth-child(2) {
     color: black;
     text-decoration-line: none;
     font-weight: 500;
 }
 
-.box4-part2 .box4-part2-child2{
+.box4-part2 .box4-part2-child2 {
     height: 100%;
     width: 50%;
     /* background-color: rgb(120, 120, 198); */
     padding-top: 7%;
-    
+
 }
 
-.box4-part2-child2 p{
+.box4-part2-child2 p {
     height: 11vh;
     width: 100%;
     /* border: 1px solid white; */
@@ -699,7 +707,7 @@ nav a.active{
 }
 
 
-.container-three{
+.container-three {
     position: relative;
     height: 68vh;
     width: 80vw;
@@ -710,7 +718,7 @@ nav a.active{
 }
 
 
-.container-three-outer-box{
+.container-three-outer-box {
     height: 100%;
     width: 100%;
     /* background-color: brown; */
@@ -719,7 +727,7 @@ nav a.active{
 }
 
 
-.container-three-outer-box .box5{
+.container-three-outer-box .box5 {
     height: 100%;
     width: 53%;
     margin-top: -6%;
@@ -728,7 +736,7 @@ nav a.active{
 
 }
 
-.box5 .box5-images{
+.box5 .box5-images {
     height: 75%;
     width: 100%;
     /* background-color: aqua; */
@@ -737,28 +745,28 @@ nav a.active{
 
 
 
-.box5-images .m-1{
+.box5-images .m-1 {
     height: 12%;
     width: 45%;
     /* background-color: black; */
     position: relative;
     top: 6%;
     left: 1.5vw;
-    background-image: url(public/ff1.jpg); 
+    background-image: url(public/ff1.jpg);
     background-size: cover;
     border-radius: 10px;
     filter: grayscale(25%);
     background-position: center;
 }
 
-.box5-images .m-2{
+.box5-images .m-2 {
     height: 73%;
     width: 93%;
     background-color: rgba(1, 1, 1, 0.724);
     position: relative;
     top: 11%;
     left: 1.5vw;
-    background-image: url(public/mira1.png); 
+    background-image: url(public/mira1.png);
     background-size: cover;
     border-radius: 10px;
     /* background-position: center; */
@@ -769,7 +777,7 @@ nav a.active{
 
 
 
-.box5 .project-details-box{
+.box5 .project-details-box {
     height: 25%;
     width: 100%;
     /* background-color: purple; */
@@ -777,18 +785,18 @@ nav a.active{
     padding: 1% 0 0 4%;
 }
 
-.project-details-box p{
+.project-details-box p {
     height: 3vh;
     font-size: 1vw;
     /* background-color: aqua; */
 }
 
-.project-details-box a{
+.project-details-box a {
     color: black;
     text-decoration: none;
 }
 
-.project-details-box h2{
+.project-details-box h2 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5vw;
@@ -796,7 +804,7 @@ nav a.active{
     /* background-color: orange; */
 }
 
-.project-details-box h2 i{
+.project-details-box h2 i {
     font-size: 1.2vw;
     margin-left: 1.9%;
     border-radius: 50%;
@@ -805,13 +813,13 @@ nav a.active{
     margin-top: 1.1%;
 }
 
-.project-details-box a:hover{
+.project-details-box a:hover {
     color: rgb(239, 67, 67);
     text-decoration: underline;
-    
+
 }
 
-.project-details-box .tech-used{
+.project-details-box .tech-used {
     margin-top: 1%;
     height: 5vh;
     width: 100%;
@@ -820,19 +828,19 @@ nav a.active{
     gap: 4%;
 }
 
-.tech-used p{
+.tech-used p {
     background-color: rgba(255, 255, 255, 0.863);
     height: 4vh;
     width: fit-content;
     padding: 0.8% 3% 2.5% 3%;
     font-size: 0.9vw;
     border-radius: 20px;
-    
+
 }
 
 
 
-.container-three-outer-box .box6{
+.container-three-outer-box .box6 {
     height: 100%;
     width: 49%;
     border-radius: 32px;
@@ -842,7 +850,7 @@ nav a.active{
 }
 
 
-.box6 .box6-images{
+.box6 .box6-images {
     height: 75%;
     width: 100%;
     /* background-color: aqua; */
@@ -852,14 +860,14 @@ nav a.active{
 
 
 
-.box6-images .m-1{
+.box6-images .m-1 {
     height: 90%;
     width: 92%;
     background-color: black;
     position: relative;
     top: 6%;
     left: 4%;
-    background-image: url(public/mind1.png); 
+    background-image: url(public/mind1.png);
     background-size: cover;
     /* background-position: center; */
     border-radius: 10px;
@@ -871,7 +879,7 @@ nav a.active{
 
 
 
-.box6 .project-details-box{
+.box6 .project-details-box {
     height: 25%;
     width: 100%;
     /* background-color: purple; */
@@ -879,13 +887,13 @@ nav a.active{
     padding: 1% 0 0 5%;
 }
 
-.project-details-box p{
+.project-details-box p {
     height: 3vh;
     /* background-color: aqua; */
 }
 
 
-.project-details-box h2{
+.project-details-box h2 {
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 1%;
@@ -893,7 +901,7 @@ nav a.active{
 }
 
 
-.project-details-box .tech-used{
+.project-details-box .tech-used {
     margin-top: 1%;
     height: 5vh;
     width: 100%;
@@ -902,19 +910,19 @@ nav a.active{
     gap: 4%;
 }
 
-.tech-used p{
+.tech-used p {
     background-color: rgba(255, 255, 255, 0.863);
     height: 4vh;
     width: fit-content;
     padding: 0.8% 3% 2.5% 3%;
     font-size: 0.9vw;
     border-radius: 20px;
-    
+
 }
 
 
 
-.container-four{
+.container-four {
     position: relative;
     height: 68vh;
     width: 80vw;
@@ -925,7 +933,7 @@ nav a.active{
 }
 
 
-.container-four-outer-box{
+.container-four-outer-box {
     height: 100%;
     width: 100%;
     /* background-color: brown; */
@@ -934,7 +942,7 @@ nav a.active{
 }
 
 
-.container-four-outer-box .box7{
+.container-four-outer-box .box7 {
     height: 100%;
     width: 53%;
     margin-top: -6.5%;
@@ -943,7 +951,7 @@ nav a.active{
 }
 
 
-.box7 .box7-images{
+.box7 .box7-images {
     height: 75%;
     width: 100%;
     /* background-color: aqua; */
@@ -952,14 +960,14 @@ nav a.active{
 
 
 
-.box7-images .m-1{
+.box7-images .m-1 {
     height: 75%;
     width: 92%;
     background-color: black;
     position: relative;
     top: 6%;
     left: 4%;
-    background-image: url(public/dev1.png); 
+    background-image: url(public/dev1.png);
     background-size: cover;
     background-position: bottom;
     border-radius: 10px;
@@ -967,7 +975,7 @@ nav a.active{
 }
 
 
-.box7-images .m-2{
+.box7-images .m-2 {
     height: 8%;
     width: 24%;
     background-color: white;
@@ -977,7 +985,7 @@ nav a.active{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-self: center;
     align-items: center;
@@ -987,7 +995,7 @@ nav a.active{
     font-family: Poppins;
 }
 
-.box7-images .m-3{
+.box7-images .m-3 {
     height: 8%;
     width: 24%;
     background-color: #093c18db;
@@ -997,7 +1005,7 @@ nav a.active{
     background-size: cover;
     /* background-position: center; */
     border-radius: 10px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-self: center;
     align-items: center;
@@ -1010,7 +1018,7 @@ nav a.active{
 
 
 
-.box7 .project-details-box{
+.box7 .project-details-box {
     height: 25%;
     width: 100%;
     /* background-color: purple; */
@@ -1018,14 +1026,14 @@ nav a.active{
     padding: 1% 0 0 5%;
 }
 
-.project-details-box p{
+.project-details-box p {
     height: 3vh;
     /* background-color: aqua; */
 }
 
- 
 
-.project-details-box h2{
+
+.project-details-box h2 {
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 1%;
@@ -1033,7 +1041,7 @@ nav a.active{
 }
 
 
-.project-details-box .tech-used{
+.project-details-box .tech-used {
     margin-top: 1%;
     height: 5vh;
     width: 100%;
@@ -1042,16 +1050,17 @@ nav a.active{
     gap: 4%;
 }
 
-.tech-used p{
+.tech-used p {
     background-color: rgba(255, 255, 255, 0.863);
     height: 4vh;
     width: fit-content;
     padding: 0.8% 3% 2.5% 3%;
     font-size: 0.9vw;
     border-radius: 20px;
-    
+
 }
-.container-four-outer-box .box8{
+
+.container-four-outer-box .box8 {
     height: 100%;
     width: 49%;
     border-radius: 32px;
@@ -1059,7 +1068,7 @@ nav a.active{
     margin-top: -1%;
 }
 
-.box8 .box8-images{
+.box8 .box8-images {
     height: 75%;
     width: 100%;
     /* background-color: aqua; */
@@ -1069,14 +1078,14 @@ nav a.active{
 
 
 
-.box8-images .m-1{
+.box8-images .m-1 {
     height: 90%;
     width: 92%;
     background-color: black;
     position: relative;
     top: 6%;
     left: 4%;
-    background-image: url(public/nestora1.png); 
+    background-image: url(public/nestora1.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -1085,7 +1094,7 @@ nav a.active{
 
 
 
-.box8 .project-details-box{
+.box8 .project-details-box {
     height: 25%;
     width: 100%;
     /* background-color: purple; */
@@ -1093,13 +1102,13 @@ nav a.active{
     padding: 1% 0 0 5%;
 }
 
-.project-details-box p{
+.project-details-box p {
     height: 3vh;
     /* background-color: aqua; */
 }
 
 
-.project-details-box h2{
+.project-details-box h2 {
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 1%;
@@ -1107,7 +1116,7 @@ nav a.active{
 }
 
 
-.project-details-box .tech-used{
+.project-details-box .tech-used {
     margin-top: 1%;
     height: 5vh;
     width: 100%;
@@ -1116,18 +1125,18 @@ nav a.active{
     gap: 4%;
 }
 
-.tech-used p{
+.tech-used p {
     background-color: rgba(255, 255, 255, 0.863);
     height: 4vh;
     width: fit-content;
     padding: 0.8% 3% 2.5% 3%;
     font-size: 0.9vw;
     border-radius: 20px;
-    
+
 }
 
 
-.container-five{
+.container-five {
     position: relative;
     height: 68vh;
     width: 80vw;
@@ -1138,7 +1147,7 @@ nav a.active{
 }
 
 
-.container-five-outer-box{
+.container-five-outer-box {
     height: 100%;
     width: 100%;
     /* background-color: brown; */
@@ -1147,7 +1156,7 @@ nav a.active{
 }
 
 
-.container-five-outer-box .box9{
+.container-five-outer-box .box9 {
     height: 100%;
     width: 53%;
     margin-top: -7%;
@@ -1155,7 +1164,7 @@ nav a.active{
     border-radius: 32px;
 }
 
-.box9 .box9-images{
+.box9 .box9-images {
     height: 75%;
     width: 100%;
     /* background-color: aqua; */
@@ -1164,10 +1173,10 @@ nav a.active{
 
 
 
-.box9-images .m-1{
+.box9-images .m-1 {
     height: 8%;
     width: 35%;
-    background-color: rgb(255,218,121);
+    background-color: rgb(255, 218, 121);
     position: relative;
     top: 6%;
     left: 4%;
@@ -1186,14 +1195,14 @@ nav a.active{
 }
 
 
-.box9-images .m-2{
+.box9-images .m-2 {
     height: 75%;
     width: 92%;
     background-color: black;
     position: relative;
     top: 10%;
     left: 4%;
-    background-image: url(public/dribbble2.png); 
+    background-image: url(public/dribbble2.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -1202,7 +1211,7 @@ nav a.active{
 
 
 
-.box9 .project-details-box{
+.box9 .project-details-box {
     height: 25%;
     width: 100%;
     /* background-color: purple; */
@@ -1210,13 +1219,13 @@ nav a.active{
     padding: 1% 0 0 5%;
 }
 
-.project-details-box p{
+.project-details-box p {
     height: 3vh;
     /* background-color: aqua; */
 }
 
 
-.project-details-box h2{
+.project-details-box h2 {
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 1%;
@@ -1224,7 +1233,7 @@ nav a.active{
 }
 
 
-.project-details-box .tech-used{
+.project-details-box .tech-used {
     margin-top: 1%;
     height: 5vh;
     width: 100%;
@@ -1233,18 +1242,18 @@ nav a.active{
     gap: 4%;
 }
 
-.tech-used p{
+.tech-used p {
     background-color: rgba(255, 255, 255, 0.863);
     height: 4vh;
     width: fit-content;
     padding: 0.8% 3% 2.5% 3%;
     font-size: 0.9vw;
     border-radius: 20px;
-    
+
 }
 
 
-.container-five-outer-box .box10{
+.container-five-outer-box .box10 {
     height: 100%;
     width: 49%;
     border-radius: 32px;
@@ -1255,7 +1264,7 @@ nav a.active{
 
 
 
-.box10 .box10-images{
+.box10 .box10-images {
     height: 75%;
     width: 100%;
     /* background-color: aqua; */
@@ -1265,20 +1274,20 @@ nav a.active{
 
 
 
-.box10-images .m-1{
+.box10-images .m-1 {
     height: 90%;
     width: 90%;
     /* background-color: black; */
     position: relative;
     top: 7%;
     left: 5%;
-    background-image: url(public/amazon.png); 
+    background-image: url(public/amazon.png);
     background-size: cover;
     /* background-position: center; */
     border-radius: 10px;
 }
 
-.box10 .project-details-box{
+.box10 .project-details-box {
     height: 25%;
     width: 100%;
     /* background-color: purple; */
@@ -1286,13 +1295,13 @@ nav a.active{
     padding: 1% 0 0 5%;
 }
 
-.project-details-box p{
+.project-details-box p {
     height: 3vh;
     /* background-color: aqua; */
 }
 
 
-.project-details-box h2{
+.project-details-box h2 {
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 1%;
@@ -1300,7 +1309,7 @@ nav a.active{
 }
 
 
-.project-details-box .tech-used{
+.project-details-box .tech-used {
     margin-top: 1%;
     height: 5vh;
     width: 100%;
@@ -1309,14 +1318,14 @@ nav a.active{
     gap: 4%;
 }
 
-.tech-used p{
+.tech-used p {
     background-color: rgba(255, 255, 255, 0.863);
     height: 4vh;
     width: fit-content;
     padding: 0.8% 3% 2.5% 3%;
     font-size: 0.9vw;
     border-radius: 20px;
-    
+
 }
 
 
@@ -1324,6 +1333,753 @@ nav a.active{
 
 
 
+/* Mobile responsive design */
+@media (max-width: 600px) {
+
+    .page1 {
+        height: 250vh;
+        /* background-color: yellowgreen; */
+    }
+
+
+    nav {
+        height: 5vh;
+        width: 28vw;
+        position: relative;
+        border-radius: 25px;
+        left: 37%;
+        top: 2%;
+
+
+    }
+
+
+    nav a {
+        height: 4vh;
+        font-size: 1.4vw;
+        width: 8.2vw;
+        border-radius: 15px;
+        margin-top: 2px;
+
+    }
+
+
+    nav a:hover {
+        background-color: rgba(255, 255, 255, 0.797);
+        transition: all linear 0.8s;
+    }
+
+
+    nav a.active {
+        background-color: rgba(255, 255, 255, 0.797);
+    }
+
+
+    .container-one {
+        top: 4.5%;
+        left: 10%;
+        height: 18vh;
+        position: relative;
+
+    }
+
+
+    .container-outer-box .box1 {
+        height: 100%;
+        width: 45%;
+        background-color: rgba(207, 205, 205, 0.332);
+        border-radius: 15px;
+
+
+    }
+
+
+    .box1-part1 .profile {
+        height: 68%;
+        width: 21%;
+        /* background-color: aquamarine; */
+        border-radius: 50%;
+        /* background-image: url(public/profile.jpg); */
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.612);
+        /* Inner shadow */
+
+
+
+    }
+
+    .box1-part1 .name h2 {
+        font-weight: 600;
+        /* text-align: center; */
+        font-size: 2.2vw;
+        margin: 6.5% 0 0 0;
+        letter-spacing: 0.1px;
+    }
+
+
+    .box1-part1 .name p {
+        margin-top: -3%;
+        padding-left: 1%;
+        font-weight: 300;
+        font-size: 1.2vw;
+    }
+
+
+
+    .box1-part2 p {
+        font-size: 1.15vw;
+        padding-top: 1.1%;
+        line-height: 1.4vw;
+    }
+
+    .box2-part2 .box2-part2-child1 {
+        height: 100%;
+        width: 55%;
+        border-radius: 15px;
+        background-color: rgba(207, 205, 205, 0.332);
+
+    }
+
+
+    .box2-part2 .box2-part2-child1 {
+        background-image: url(public/map.PNG);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box2-part2 .box2-part2-child2 {
+        height: 100%;
+        width: 45%;
+        /* background-color: palevioletred; */
+
+    }
+
+
+    .box2-part2-child2 .child2-child1 {
+        border-radius: 15px;
+        background-color: rgba(207, 205, 205, 0.332);
+        /* background-color: olive; */
+        padding: 10% 8% 0 8%;
+        font-size: 1.1vw;
+
+    }
+
+
+    .box2-part2-child2 .child2-child2 {
+        border-radius: 15px;
+        margin-top: 9%;
+
+    }
+
+
+
+    .child2-child1 span {
+        text-transform: uppercase;
+        font-size: 1.45vw;
+        font-weight: 500;
+        color: black;
+
+    }
+
+    .child2-child1 .eye-icon {
+        font-size: 2.2vw;
+        border-radius: 12px;
+
+    }
+
+
+    .child2-child2 .eye-icon {
+        height: 80%;
+        width: 48%;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+        font-size: 2.4vw;
+        /* background-color: yellow; */
+
+
+    }
+
+
+    .container-two {
+        position: relative;
+        height: 25vh;
+        width: 80vw;
+        /* background: black; */
+        top: 4.5%;
+        left: 8%;
+        margin: 2%;
+    }
+
+
+    .container-two-outer-box .box3 {
+        height: 100%;
+        width: 51%;
+        gap: 0.2%;
+        /* background-color: blueviolet; */
+    }
+
+    .box3 .box3-part1 {
+        height: 100%;
+        width: 38%;
+        /* background-color: peru; */
+    }
+
+    .box3-part1 .box3-part1-child1 {
+        height: 7.6vh;
+        width: 88%;
+        background-color: rgba(207, 205, 205, 0.397);
+        /* border: 1px solid yellow; */
+        margin-bottom: 1.37vw;
+        border-radius: 15px;
+
+    }
+
+    .box3 .box3-part2 {
+        height: 100%;
+        width: 60%;
+        /* background-color: rgb(91, 205, 63); */
+    }
+
+
+    .box3-part2-child1 {
+        height: 66%;
+        width: 100%;
+        background-color: rgba(207, 205, 205, 0.397);
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+    .marquee-image-link img {
+        height: 5.5vh;
+        width: 18%;
+        /* background-color: rgb(111, 179, 179); */
+        object-fit: cover;
+        margin-right: 20px;
+        border-radius: 10px;
+
+
+    }
+
+    .box3-part2-child1 .tech-heading {
+        padding: 4% 0 0 5%;
+    }
+
+    .tech-heading h5 {
+        font-size: 1.2vw;
+    }
+
+
+    .tech-heading p {
+        font-size: 1.1vw;
+        font-weight: 500;
+
+    }
+
+    .box3-part2-child2 {
+        border-radius: 15px;
+
+    }
+
+    .container-two-outer-box .box4 {
+        border-radius: 20px;
+
+    }
+
+    .box4 .box4-heading {
+        padding: 5% 0 0 5%;
+
+    }
+
+    .box4-heading p {
+        font-size: 1vw;
+    }
+
+    .box4-part2-child1 p {
+        height: 3.7vh;
+        /* background-color: orange; */
+
+    }
+
+    .box4-part2-child2 p {
+        height: 3.7vh;
+        /* background-color: orange; */
+
+    }
+
+
+    .container-three {
+        position: relative;
+        height: 60vh;
+        width: 80vw;
+        /* background: black; */
+        top: 6.2%;
+
+    }
+
+
+    .container-three-outer-box {
+        height: 100%;
+        width: 100%;
+        /* background-color: brown; */
+        display: inline-block;
+    }
+
+
+    .container-three-outer-box .box5 {
+        height: 50%;
+        width: 100%;
+        margin-top: -6%;
+        border-radius: 15px;
+        background-color: rgba(207, 205, 205, 0.397);
+
+    }
+
+
+    .box5-images .m-1 {
+        height: 12%;
+        width: 25%;
+        position: relative;
+        border-radius: 5px;
+
+    }
+
+
+    .box5-images .m-2 {
+        height: 78%;
+        width: 93%;
+        background-color: rgba(1, 1, 1, 0.724);
+        position: relative;
+        background-image: url(public/mira1.png);
+        background-size: cover;
+        border-radius: 5px;
+
+
+
+    }
+
+
+    .box5 .project-details-box {
+        height: 25%;
+        width: 100%;
+        /* background-color: purple; */
+        position: relative;
+        padding: 1% 0 0 2%;
+    }
+
+
+    .project-details-box p {
+        height: 2vh;
+        font-size: 1.15vw;
+        /* background-color: aqua; */
+        padding: 0.5% 0;
+
+    }
+
+    .project-details-box a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .project-details-box h2 {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.5vw;
+        position: relative;
+        /* background-color: orange; */
+        margin-top: -0.1%;
+    }
+
+    .project-details-box h2 i {
+        font-size: 1.3vw;
+        margin-left: 1.5%;
+        border-radius: 50%;
+        /* background-color: yellow; */
+        position: absolute;
+        margin-top: 0.5%;
+    }
+
+    .project-details-box .tech-used {
+        margin-top: 0.7%;
+        margin-left: -0.2%;
+        height: 2vh;
+        width: 90%;
+        /* background-color: beige; */
+        display: flex;
+        gap: 3%;
+    }
+
+
+    .tech-used p {
+        background-color: rgba(255, 255, 255, 0.863);
+        height: 100%;
+        width: fit-content;
+        padding: 0.8% 2% 2.5% 2%;
+        font-size: 0.9vw;
+        border-radius: 7px;
+
+    }
+
+    .container-three-outer-box .box6 {
+        border-radius: 15px;
+        height: 50%;
+        width: 100%;
+        margin-top: 2.5%;
+        /* background-color: olive; */
+
+
+
+    }
+
+
+    .box6 .box6-images {
+        height: 78%;
+
+    }
+
+
+    .box6-images .m-1 {
+        height: 90%;
+        width: 95%;
+        left: 2%;
+        /* background-position: center; */
+        border-radius: 8px;
+
+    }
+
+    .box6 .project-details-box {
+        height: 25%;
+        width: 100%;
+        /* background-color: purple; */
+        position: relative;
+        padding: 0.5% 0 0 2%;
+    }
+
+
+    .box6 .project-details-box p {
+        height: 2vh;
+        font-size: 1.15vw;
+        /* background-color: aqua; */
+        padding: 0.5% 0;
+        margin-top: -1%;
+
+    }
+
+    .box6 .tech-used {
+        margin-top: 1.3%;
+        /* background-color: palegreen; */
+    }
+
+    .box6 .tech-used p {
+        background-color: rgba(255, 255, 255, 0.863);
+        height: 100%;
+        width: fit-content;
+        padding: 0.8% 2% 2.5% 2%;
+        font-size: 0.9vw;
+        border-radius: 7px;
+
+    }
+
+
+
+    .container-four {
+        position: relative;
+        height: 60vh;
+        width: 80vw;
+        /* background: black; */
+        top: 6.8%;
+
+    }
+
+
+    .container-four-outer-box {
+        height: 100%;
+        width: 100%;
+        /* background-color: brown; */
+        display: inline-block;
+    }
+
+
+    .container-four-outer-box .box7 {
+        height: 50%;
+        width: 100%;
+        margin-top: -6%;
+        border-radius: 15px;
+        background-color: rgba(207, 205, 205, 0.397);
+    }
+
+
+    .box7-images .m-1 {
+        height: 78%;
+        width: 95%;
+        background-color: black;
+        position: relative;
+        top: 6%;
+        left: 2%;
+        background-image: url(public/dev1.png);
+        background-size: cover;
+        background-position: calc(100 - 1);
+        border-radius: 8px;
+        filter: grayscale(35%);
+    }
+
+    .box7-images .m-2 {
+        height: 7%;
+        width: 15%;
+        left: 2%;
+        border-radius: 6px;
+        padding-top: 0.%;
+    }
+
+
+    .box7-images .m-3 {
+        height: 7%;
+        width: 15%;
+        left: 20%;
+        border-radius: 6px;
+        padding-top: 0.2%;
+        top: 3%;
+    }
+
+    .box7 .project-details-box {
+        height: 25%;
+        width: 100%;
+        /* background-color: purple; */
+        position: relative;
+        padding: 0.5% 0 0 2%;
+    }
+
+
+    .box7 .project-details-box p {
+        height: 2vh;
+        font-size: 1.15vw;
+        /* background-color: aqua; */
+        padding: 0.5% 0;
+        margin-top: -1%;
+
+    }
+
+    .box7 .project-details-box h2 {
+        /* background-color: orange; */
+        margin-top: 0.5%;
+
+    }
+
+    .box7 .tech-used {
+        margin-top: 1.6%;
+        /* background-color: palegreen; */
+    }
+
+    .box7 .tech-used p {
+        background-color: rgba(255, 255, 255, 0.863);
+        height: 100%;
+        width: fit-content;
+        padding: 0.8% 2% 2.5% 2%;
+        font-size: 0.9vw;
+        border-radius: 7px;
+
+    }
+
+
+
+    .container-four-outer-box .box8 {
+        height: 50%;
+        width: 100%;
+        margin-top: 2.5%;
+        border-radius: 15px;
+        background-color: rgba(207, 205, 205, 0.397);
+
+    }
+
+    .box8-images .m-1 {
+        left: 2%;
+        width: 95%;
+        border-radius: 8px;
+    }
+
+    .box8 .project-details-box {
+        height: 25%;
+        width: 100%;
+        /* background-color: purple; */
+        position: relative;
+        padding: 0.5% 0 0 2%;
+    }
+
+
+    .box8 .project-details-box p {
+        height: 2vh;
+        font-size: 1.15vw;
+        /* background-color: aqua; */
+        padding: 0.5% 0;
+        margin-top: -1%;
+
+    }
+
+    .box8 .project-details-box h2 {
+        /* background-color: orange; */
+        margin-top: 0.5%;
+
+    }
+
+    .box8 .tech-used {
+        margin-top: 1.6%;
+        /* background-color: palegreen; */
+    }
+
+    .box8 .tech-used p {
+        background-color: rgba(255, 255, 255, 0.863);
+        height: 100%;
+        width: fit-content;
+        padding: 0.8% 2% 2.5% 2%;
+        font-size: 0.9vw;
+        border-radius: 7px;
+
+    }
+
+    .container-five {
+        position: relative;
+        height: 60vh;
+        width: 80vw;
+        /* background: black; */
+        top: 7.5%;
+
+    }
+
+
+    .container-five-outer-box {
+        height: 100%;
+        width: 100%;
+        /* background-color: brown; */
+        display: inline-block;
+    }
+
+
+    .container-five-outer-box .box9 {
+        height: 50%;
+        width: 100%;
+        margin-top: -6%;
+        border-radius: 15px;
+        background-color: rgba(207, 205, 205, 0.397);
+
+    }
+
+
+    .box9-images .m-1 {
+        height: 9%;
+        width: 20%;
+        font-size: 1.7vw;
+        border-radius: 8px;
+        left: 2%;
+    }
+
+
+    .box9-images .m-2 {
+        width: 95%;
+        left: 2%;
+        border-radius: 8px;
+    }
+
+
+    .box9 .project-details-box {
+        height: 25%;
+        width: 100%;
+        /* background-color: purple; */
+        position: relative;
+        padding: 0.5% 0 0 2%;
+    }
+
+
+    .box9 .project-details-box p {
+        height: 2vh;
+        font-size: 1.15vw;
+        /* background-color: aqua; */
+        padding: 0.5% 0;
+        margin-top: -1%;
+
+    }
+
+    .box9 .project-details-box h2 {
+        /* background-color: orange; */
+        margin-top: 0.5%;
+
+    }
+
+    .box9 .tech-used {
+        margin-top: 1.6%;
+        /* background-color: palegreen; */
+    }
+
+    .box9 .tech-used p {
+        background-color: rgba(255, 255, 255, 0.863);
+        height: 100%;
+        width: fit-content;
+        padding: 0.8% 2% 2.5% 2%;
+        font-size: 0.9vw;
+        border-radius: 7px;
+
+    }
+
+    .container-five-outer-box .box10 {
+        height: 50%;
+        width: 100%;
+        margin-top: 2.5%;
+        border-radius: 15px;
+        background-color: rgba(207, 205, 205, 0.397);
+
+    }
+
+    
+    .box10-images .m-1{
+        width: 95%;
+        left: 2%;
+        border-radius: 8px;
+
+    }
+
+
+    .box10 .project-details-box {
+        height: 25%;
+        width: 100%;
+        /* background-color: purple; */
+        position: relative;
+        padding: 0.5% 0 0 2%;
+    }
+
+
+    .box10 .project-details-box p {
+        height: 2vh;
+        font-size: 1.15vw;
+        /* background-color: aqua; */
+        padding: 0.5% 0;
+        margin-top: -1%;
+
+    }
+
+    .box10 .project-details-box h2 {
+        /* background-color: orange; */
+        margin-top: 0.5%;
+
+    }
+
+    .box10 .tech-used {
+        margin-top: 1.6%;
+        /* background-color: palegreen; */
+    }
+
+    .box10 .tech-used p {
+        background-color: rgba(255, 255, 255, 0.863);
+        height: 100%;
+        width: fit-content;
+        padding: 0.8% 2% 2.5% 2%;
+        font-size: 0.9vw;
+        border-radius: 7px;
+
+    }
 
 
 
@@ -1337,3 +2093,10 @@ nav a.active{
 
 
 
+
+
+
+
+
+
+}
